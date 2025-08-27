@@ -212,4 +212,12 @@ $$
 
 ### 4.2.2 Light elements abundances
 
-To simplify the understanding and calculation, we think light element production occurs instantaneously at a temperature $T_{nuc}$ when the energetics compensates for the small baryon-to-photon ratio, which means that the temperature is so cold that the energy of almost photons is smaller than the binding energy of this light element.
+To simplify the understanding and calculation, we think light element production occurs instantaneously at a temperature $T_{nuc}$ when the energetics compensates for the small baryon-to-photon ratio, which means that the temperature is so cold that the energy of almost photons is smaller than the binding energy of this light element. Let us consider deuterium as an example, with Eq.(15):
+
+$$ln(\eta_b) + \frac{3}{2} ln(T_{nuc}/m_p) \sim -\frac{B_D}{T_{nuc}}.\tag{26}$$
+
+Helium is produced almost immediately after deuterium, so almost all remaining neutrons at $T \sim T_{nuc}$ are processed into $^4He$. Since each helium nucleus has 2 protons and 2 neutrons, the final helium abundance is equal to half the neutron abundance at $T_{nuc}$. Therefore, we have:
+
+$$Y_p \equiv \frac{4n_{He}}{n_b} \simeq 2X_n(T_{nuc}),\tag{27}$$
+which yields a final helium mass fraction of 0.22. One important feature of this result is that it depends only weakly on the baryon-to-photon ratio $\eta_b$. This is because the neutron fraction $X_n$ depends only logarithmically on $\eta_b$ through $T_{nuc}$. Not all of the deuterium produced at $T_{nuc}$ is converted into helium, but only a small fraction of it. A trace amount remains unburned, simply because the reaction that eliminates it, $D + p \rightarrow ^3He + \gamma$,is not completely efficient. While deuterium is depleted via these reactions after $T_\mathrm{nuc}$, it eventually freezes out at a mass fraction of order $\bar{3}\times10^{-5}.$ If the baryon density is low, then the reactions proceed more slowly, and the depletion is not as effective. Therefore, low baryon density inevitably results in more deuterium; the sensitivity is quite stark. This fact, combined with the possibility of measuring deuterium in high-redshift gas clouds by looking for absorption in the spectra of distant QSOs (see Sect. l.3), turns the deuterium abundance into an important probe of the baryon density.
+## 4.3 Recombination
