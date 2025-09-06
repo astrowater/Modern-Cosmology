@@ -5,12 +5,12 @@ The very early universe was hot and dense, so the interactions of particles ocur
 Indeed, we will see in this chapter that out-of-equilibrium phenomena played a role in
 
 - (i) the formation of the light elements during Big Bang Nucleosynthesis;
-- (ii) recombination of electrons and protons into neutral hydrogen; and possibly in
+- (ii) recombination of electrons and protons into neutral hydrogen; 
 - (iii) the production of dark matter in the early universe.
 
 ## 4.1 The homogeneous Boltzmann equation revisited
 
-Let us recall the interaction of two particles:\(1+2 \rightleftharpoons 3+4\), and when we are interested in the number density \(n_1\) of particle 1, we could use this two equations:
+Let us recall the interaction of two particles:$1+2 \rightleftharpoons 3+4$, and when we are interested in the number density $n_1$ of particle 1, we could use this two equations:
 
 $$
 \frac{dn(t)}{dt}+3Hn(t)=\int\frac{d^3p}{(2\pi)^3}C[f],\tag{1}
@@ -36,15 +36,15 @@ a^{-3}\frac{d(n_1a^3)}{dt} & =\int\frac{d^3p_1}{(2\pi)^32E_1}\int\frac{d^3p_2}{(
 $$
 
 We have thus obtained an integrodifferential equation for the phase-space distributions. Further, in principle at least, it must be supplemented with similar equations for the other species. However, in practice, these difficulties could be overcome  for many cosmology applications.
-Scattering processes tipycally enforce kinetic equilibrium, leading to that the distributions of the various species take on the generic Bose–Einstein/Fermi–Dirac forms with equal temperature \(T\) for each species. This form condenses all of the freedom in the distribution into the functions of time \(T\) and \(\mu\). In the out-of-equilibrium cases we will study, the system will not be in chemical equilibrium and we will have to solve a differential equation for \(\mu\). And we could just solve the ODE not the complicated integral equation.
+Scattering processes tipycally enforce kinetic equilibrium, leading to that the distributions of the various species take on the generic Bose–Einstein/Fermi–Dirac forms with equal temperature $T$ for each species. This form condenses all of the freedom in the distribution into the functions of time $T$ and $\mu$. In the out-of-equilibrium cases we will study, the system will not be in chemical equilibrium and we will have to solve a differential equation for $\mu$. And we could just solve the ODE not the complicated integral equation.
 
-Considering the situation where \(E-\mu \gg 1\), Bose–Einstein and Fermi–Dirac distributions can approximately become Boltzmann distribution(which means ignoring the complications of quantum statistics):
+Considering the situation where $E-\mu \gg 1$, Bose–Einstein and Fermi–Dirac distributions can approximately become Boltzmann distribution(which means ignoring the complications of quantum statistics):
 
 $$
 f(E)\to e^{\mu/T}e^{-E/T}.\tag{4}
 $$
 
-In addition, the Pauli blocking/Bose enhancement factors in the Boltzmann equation can be neglected. This is because \(f(E) \ll 1\) in the limit of Eq.(4).
+In addition, the Pauli blocking/Bose enhancement factors in the Boltzmann equation can be neglected. This is because $f(E) \ll 1$ in the limit of Eq.(4).
 Under these approximations, the last line of Eq. (3) becomes:
 
 $$
@@ -54,13 +54,13 @@ f_3f_4[1\pm f_1][1\pm f_2] & -f_1f_2[1\pm f_3][1\pm f_4] \\
 \end{aligned}\tag{5}
 $$
 
-Here we have used energy conservation,\(E_1+E_2=E_3+E_4\), and the fact that the number of particles is conserved.We will use the number densities themselves as the time-dependent functions to be solved for, instead of\(\mu\). The number density of species \(s\) is related to \(\mu_s\) via
+Here we have used energy conservation,$E_1+E_2=E_3+E_4$, and the fact that the number of particles is conserved.We will use the number densities themselves as the time-dependent functions to be solved for, instead of$\mu$. The number density of species $s$ is related to $\mu_s$ via
 
 $$
 n_s=g_se^{\mu_s/T}\int\frac{d^3p}{(2\pi)^3}e^{-E_s(p)/T},\tag{6}
 $$
 
-if \(\mu_s = 0\), then the equation:
+if $\mu_s = 0$, then the equation:
 
 $$
 \left.n_s^{(0)}\equiv g_s\int\frac{d^3p}{(2\pi)^3}e^{-E_s(p)/T}=\left\{
@@ -70,7 +70,7 @@ g_s\frac{T^3}{\pi^2} & m_s\ll T.
 \end{array}\right.\right.\tag{7}
 $$
 
-With this definition, \(e^{\mu_i/T}\)can be rewritten as \(n_i/n_i^{(0)}\), and the last line of Eq. (5) becomes:
+With this definition, $e^{\mu_i/T}$can be rewritten as $n_i/n_i^{(0)}$, and the last line of Eq. (5) becomes:
 
 $$
 e^{(\mu_3+\mu_4)/T}-e^{(\mu_1+\mu_2)/T}=\frac{n_3n_4}{n_3^{(0)}n_4^{(0)}}-\frac{n_1n_2}{n_1^{(0)}n_2^{(0)}}.\tag{8}
@@ -94,13 +94,13 @@ $$
 a^{-3}\frac{d(n_1a^3)}{dt}=n_1^{(0)}n_2^{(0)}\langle\sigma v\rangle\left\{\frac{n_3n_4}{n_3^{(0)}n_4^{(0)}}-\frac{n_1n_2}{n_1^{(0)}n_2^{(0)}}\right\}.\tag{10}
 $$
 
-One qualitative note about Eq. (10). The left-hand side is of order \(n_1/t\), or, since the typical cosmological time is \(H^{-1}\), \(n_1 H\) . The right-hand side is of order \(n_1n_2\langle\sigma v\rangle\). Therefore, if the reaction rate for a single particle of type 1,\(n_2\langle\sigma v\rangle\), is much larger than the expansion rate, then the terms on the right side will be much larger than the one on the left. The only way to maintain equality then is for the individual terms on the right to cancel. Thus, when reaction rates are large, Eq. (10) approaches
+One qualitative note about Eq. (10). The left-hand side is of order $n_1/t$, or, since the typical cosmological time is $H^{-1}$, $n_1 H$ . The right-hand side is of order $n_1n_2\langle\sigma v\rangle$. Therefore, if the reaction rate for a single particle of type 1,$n_2\langle\sigma v\rangle$, is much larger than the expansion rate, then the terms on the right side will be much larger than the one on the left. The only way to maintain equality then is for the individual terms on the right to cancel. Thus, when reaction rates are large, Eq. (10) approaches
 
 $$
 \frac{n_3n_4}{n_3^{(0)}n_4^{(0)}}=\frac{n_1n_2}{n_1^{(0)}n_2^{(0)}}.\tag{11}
 $$
 
-This equation is equivalent to the condition \(\mu_1+\mu_2=\mu_3+\mu_4\), the relation we have referred to as chemical equilibrium above. The same relation is also known under the names of nuclear statistical equilibrium and Saha equation.
+This equation is equivalent to the condition $\mu_1+\mu_2=\mu_3+\mu_4$, the relation we have referred to as chemical equilibrium above. The same relation is also known under the names of nuclear statistical equilibrium and Saha equation.
 
 ## 4.2 Big Bang nucleosynthesis
 
@@ -108,16 +108,16 @@ Big Bang Nucleosynthesis (BBN) happened when the temperature of the universe coo
 
 - Relativistic particles in equilibrium: photons, electrons and positrons.Besides a small difference due to fermion/boson statistics, these all had the same abundances.
 - Decoupled relativistic particles: neutrinos.Neutrinos share the same temperature as the other relativistic particles (but see Sect. 2.4.4), and hence are roughly as abundant, but they do not couple to them.
-- Nonrelativistic particles: baryons.If there had been no asymmetry in the initial number of baryons and anti-baryons, then both would be completely depleted by 1 MeV. However, the asymmetry has happened. Comparing the abundance of baryons to photons, we find \(n_b/s \sim 10^{-10}\) today. There are many fewer baryons than relativistic particles in the universe.
+- Nonrelativistic particles: baryons.If there had been no asymmetry in the initial number of baryons and anti-baryons, then both would be completely depleted by 1 MeV. However, the asymmetry has happened. Comparing the abundance of baryons to photons, we find $n_b/s \sim 10^{-10}$ today. There are many fewer baryons than relativistic particles in the universe.
 
 To solve the Eq.(10) and at least for a qualitative understanding of the result, we can make use of two simplifications that obviate the need to solve the full set of differential equations.
 
-- no elements heavier than helium are produced at appreciable levels. So the only nuclei that we need to trace are hydrogen and helium, and their isotopes: deuterium, tritium, and \(^3 He\).
-- even in the context of this reduced set of elements, the physics splits up neatly into two parts since above \(T \simeq 0.1 MeV\), no light nuclei form: only free protons and neutrons exist.
+- no elements heavier than helium are produced at appreciable levels. So the only nuclei that we need to trace are hydrogen and helium, and their isotopes: deuterium, tritium, and $^3 He$.
+- even in the context of this reduced set of elements, the physics splits up neatly into two parts since above $T \simeq 0.1 MeV$, no light nuclei form: only free protons and neutrons exist.
 
 Therefore, we first solve for the neutron/proton ratio and then use this abundance as input for the synthesis of helium and isotopes such as deuterium.
 However, both of these simplifications rely on the physical fact that, at high temperatures, comparable to nuclear binding energies, any time a nucleus is produced in a reaction, it is destroyed by a high-energy photon.
-This fact is reflected in the fundamental equilibrium equation (11).Let us consider the reaction:\(n + p \leftrightarrow D+ \gamma\). Since photons have \(n_\gamma = n_\gamma^{(0)}\), we can write:
+This fact is reflected in the fundamental equilibrium equation (11).Let us consider the reaction:$n + p \leftrightarrow D+ \gamma$. Since photons have $n_\gamma = n_\gamma^{(0)}$, we can write:
 
 $$
 \frac{n_\mathrm{D}}{n_nn_p}=\frac{n_\mathrm{D}^{(0)}}{n_n^{(0)}n_p^{(0)}}.\tag{12}
@@ -129,49 +129,49 @@ $$
 \frac{n_\mathrm{D}}{n_nn_p}=\frac{3}{4}\left(\frac{2\pi m_\mathrm{D}}{m_nm_pT}\right)^{3/2}e^{[m_n+m_p-m_\mathrm{D}]/T},\tag{13}
 $$
 
-the factor of 3/4 being due to the number of spin states (3 for D and 2 each for p and n). In the prefactor, \(m_D\) could be set to \(2m_n = 2 m_p\); and in the exponent, we could use the fact that \(m_n + m_p - m_D = B_D = 2.22MeV\). Therefore, we have:
+the factor of 3/4 being due to the number of spin states (3 for D and 2 each for p and n). In the prefactor, $m_D$ could be set to $2m_n = 2 m_p$; and in the exponent, we could use the fact that $m_n + m_p - m_D = B_D = 2.22MeV$. Therefore, we have:
 
 $$
 \frac{n_{\mathrm{D}}}{n_{n}n_{p}}=\frac{3}{4}\left(\frac{4\pi}{m_{p}T}\right)^{3/2}e^{B_{\mathrm{D}}/T}.\tag{14}
 $$
 
-Both the neutron and proton density are proportional to the baryon density, so we have \(n_n \simeq n_p \simeq n_b = \eta n_\gamma^{(0)}\). Substituting this into Eq. (14), we obtain:
+Both the neutron and proton density are proportional to the baryon density, so we have $n_n \simeq n_p \simeq n_b = \eta n_\gamma^{(0)}$. Substituting this into Eq. (14), we obtain:
 
 $$
 \frac{n_{\mathrm{D}}}{n_{\mathrm{b}}}\sim\eta_{\mathrm{b}}\left(\frac{T}{m_{p}}\right)^{3/2}e^{B_{\mathrm{D}}/T}.\tag{15}
 $$
 
-As long as \(B_D/T\) is not too large, the small prefactor dominates this expression.
+As long as $B_D/T$ is not too large, the small prefactor dominates this expression.
 
 ### 4.2.1 Neutron abundance
 
-We begin by solving for the neutron–proton ratio. Protons can be converted into neutrons via weak interactions, \(p + e^- \rightarrow n + \nu_e\) for example.
-From Eq. (7), the proton/neutron equilibrium ratio in the nonrelativistic limit (so that \(E_i (p) = m_i + p^2/2m_i\) ) is
+We begin by solving for the neutron–proton ratio. Protons can be converted into neutrons via weak interactions, $p + e^- \rightarrow n + \nu_e$ for example.
+From Eq. (7), the proton/neutron equilibrium ratio in the nonrelativistic limit (so that $E_i (p) = m_i + p^2/2m_i$ ) is
 
 $$
 \frac{n_p^{(0)}}{n_n^{(0)}}=\frac{e^{-m_p/T}\int dp\mathrm{~}p^2e^{-p^2/2m_pT}}{e^{-m_n/T}\int dp\mathrm{~}p^2e^{-p^2/2m_nT}}.\tag{16}
 $$
 
-We know that the integrals in Eq.(16) are proportional to \(m^{3/2}\), so we can neglect the mass difference as the ratio \(m_p/m_n\) approaches 1. However, we can neglect the difference in the exponents, and we are left with:
+We know that the integrals in Eq.(16) are proportional to $m^{3/2}$, so we can neglect the mass difference as the ratio $m_p/m_n$ approaches 1. However, we can neglect the difference in the exponents, and we are left with:
 
 $$
 \frac{n_p^{(0)}}{n_n^{(0)}}=e^{\mathcal{Q}/T}\tag{17}
 $$
 
-with \(\mathcal{Q} \equiv m_n - m_p = 1.293MeV\). Therefore, at high temperatures, there are as many neutrons as protons. As the temperature drops beneath 1 MeV, the neutron fraction goes down. If weak interactions operated efficiently enough to maintain equilibrium indefinitely, then it would drop to zero.
+with $\mathcal{Q} \equiv m_n - m_p = 1.293MeV$. Therefore, at high temperatures, there are as many neutrons as protons. As the temperature drops beneath 1 MeV, the neutron fraction goes down. If weak interactions operated efficiently enough to maintain equilibrium indefinitely, then it would drop to zero.
 Define:
 
 $$
 X_n \equiv \frac{n_n}{n_n + n_p},\tag{18}
 $$
 
-that is, \(X_n\) is the ratio of neutrons to total nuclei.In equilibrium,
+that is, $X_n$ is the ratio of neutrons to total nuclei.In equilibrium,
 
 $$
 X_n\to X_{n,\mathrm{EQ}}\equiv\frac{1}{1+n_p^{(0)}/n_n^{(0)}}.\tag{19}
 $$
 
-To track the evolution of \(X_n\), let us start from Eq. (10), with 1 = neutron, 3 = proton, and 2,  4 = leptons in complete equilibrium (\(n_l = n_l^{(0)}\)). Then,
+To track the evolution of $X_n$, let us start from Eq. (10), with 1 = neutron, 3 = proton, and 2,  4 = leptons in complete equilibrium ($n_l = n_l^{(0)}$). Then,
 
 $$
 a^{-3}\frac{d(n_na^3)}{dt}=n_l^{(0)}\langle\sigma v\rangle\left\{\frac{n_pn_n^{(0)}}{n_p^{(0)}}-n_n\right\}.\tag{20}
@@ -221,3 +221,61 @@ Helium is produced almost immediately after deuterium, so almost all remaining n
 $$Y_p \equiv \frac{4n_{He}}{n_b} \simeq 2X_n(T_{nuc}),\tag{27}$$
 which yields a final helium mass fraction of 0.22. One important feature of this result is that it depends only weakly on the baryon-to-photon ratio $\eta_b$. This is because the neutron fraction $X_n$ depends only logarithmically on $\eta_b$ through $T_{nuc}$. Not all of the deuterium produced at $T_{nuc}$ is converted into helium, but only a small fraction of it. A trace amount remains unburned, simply because the reaction that eliminates it, $D + p \rightarrow ^3He + \gamma$,is not completely efficient. While deuterium is depleted via these reactions after $T_\mathrm{nuc}$, it eventually freezes out at a mass fraction of order $\bar{3}\times10^{-5}.$ If the baryon density is low, then the reactions proceed more slowly, and the depletion is not as effective. Therefore, low baryon density inevitably results in more deuterium; the sensitivity is quite stark. This fact, combined with the possibility of measuring deuterium in high-redshift gas clouds by looking for absorption in the spectra of distant QSOs (see Sect. l.3), turns the deuterium abundance into an important probe of the baryon density.
 ## 4.3 Recombination
+After BBN is complete, the ordinary matter in the universe consists of protons, electrons, photons, helium nuclei and trace amounts of heavier nuclei (the neutrinos have decoupled by now, and no longer play a role). At this time, the Campton scattering between photons and electrons could be efficient enough to keep the photons tightly coupled to the baryons while the electrons and baryons remain tightly coupled by Coulomb scattering throughout. 
+
+As the universe expands and cools, it eventually reaches a temperature where the photons no longer have enough energy to keep the hydrogen ionized. At this point, the protons and electrons combine to form neutral hydrogen atoms. This process is known as recombination, although that is clearly a misnomer: electrons and protons combine, but not re-combine since this is the first time neutral atoms form in the universe.
+
+Helium is another asterisk to the qualitative account given above and the more quantitative one we turn to below. The binding energy of the fist and second electron in a helium atom are 54.4eV and 24eV, respectively, which are larger than that of hydrogen. So the full recombination to neutral helium occurs earlier than that of neutral hydrogen. However, since there are relatively few helium atoms, the vast majority of electrons remain free. For the purposes of decoupling, then, helium recombination plays only a small role, so we will neglect helium in what follows. Percent-level predictions for the CMB anisotropies do need to account for helium.
+
+With the reaction $e^- + p \leftrightarrow H + \gamma$remaining in equilibrium, the condition in Eq.(11) ensures that 
+$$ \frac{n_e n_p}{n_H} = \frac{n^{(0)}_e n^{(0)}_p}{n^{(0)}_H}.\tag{28}$$
+This is the Saha Equation. If we this the universe is neutral, we could get that $n_e=n_p$. Let us define the free electron fraction:
+$$ X_e \equiv \frac{n_e}{n_e+n_H} = \frac{n_p}{n_p + n_H}.\tag{29}$$
+When we neglect the effect of helium, the denominator of Eq.(29) is equal to the total number of protons. Using Eq.(7) for the quantities on the right-hand side of Eq.(28) leads to:
+$$\frac{X_e^2}{1-X_e}=\frac{1}{n_e+n_\mathrm{H}}\left[\left(\frac{m_eT}{2\pi}\right)^{3/2}e^{-[m_e+m_p-m_\mathrm{H}]/T}\right],\tag{30}$$
+where we have made the familiar approximation of neglecting the small mass difference of $H$ and $p$ in the prefactor. The denominator $n_e + n_H$ is equal to the baryon density$n_b$, which is equal to $\eta_b n_\gamma \sim 10^{-9} T^3$. We know that the binding energy $\epsilon_0 = m_e + m_p -m_H = 13.6eV$, so the argument of the exponential is $-\epsilon_0/T$. When the recombination occured, the temperature was just less than the $\epsilon_0$, so $T<13.6eV$. And the mass of electron is about $0.5 \times 10^6 eV$. So when the temperature is of order $\epsilon_0$, the right-hand side of the order $10^9 (m_e/T)^{3/2} \simeq 10^{15}$. 
+
+In this case, Eq.(30) can be satisfied only if the denominator on the left is very small, that is if $X_e$ is very close to 1: all hydrogen is ionized. Only if the temperature drops far blow $\epsilon_0$ does appreciable recombination take place. As $X_e$ falls, the rate for recombination also falls, so that equilibrium becomes more difficult to maintain. Thus, in order to follow the free electron fraction accurately, we need to solve the Boltzmann equation, just as we did for the neutron–proton ratio.
+
+In this case, with Eq.(29) and Eq.(30), Eq.(10) for the electron density becomes:
+$$\begin{aligned}
+a^{-3}\frac{d(n_ea^3)}{dt} & =n_e^{(0)}n_p^{(0)}\langle\sigma v\rangle\left\{\frac{n_\mathrm{H}}{n_\mathrm{H}^{(0)}}-\frac{n_e^2}{n_e^{(0)}n_p^{(0)}}\right\} \\
+ & =n_\mathrm{b}\langle\sigma v\rangle\left\{(1-X_e)\left(\frac{m_eT}{2\pi}\right)^{3/2}e^{-\epsilon_0/T}-X_e^2n_\mathrm{b}\right\},
+\end{aligned}\tag{31}$$
+
+Meanwhile, since$n_b a^3$ is constant it can be passed through the derivative on the left after expressing $n_e$ as $n_b X_e$, so that:
+$$\frac{dX_e}{dt}=\left\{(1-X_e)\beta-X_e^2n_\mathrm{b}\alpha^{(2)}\right\}\tag{32},$$
+where the ionization rate is typically denoted:
+$$\beta\equiv\langle\sigma v\rangle\left(\frac{m_eT}{2\pi}\right)^{3/2}e^{-\epsilon_0/T},\tag{33}$$
+and the recombination rate:
+$$\alpha^{(2)}\equiv\langle\sigma v\rangle.\tag{34}$$
+The recombination rate has superscript $^{(2)}$ because recombination to the ground state $(n=1)$ is not relevant. Ground-state recombinations lead to production of an ionizing photon, and the energy of this photon is so high that it immediately ionizes a neutral atom. The net effect of such a recombination is zero: no new neutral atoms are formed this way. The only way for recombination to proceed is via capture to one of the excited states of hydrogen; to a good approximation (see Exercise 4.7), this rate is:
+$$\alpha^{(2)} = 9.78 \frac{\alpha^2}{m_e^2} (\frac{\epsilon_0}{T})^{1/2} ln(\frac{\epsilon_0}{T}).\tag{35}$$
+The Saha approximation, Eq.(30), does a good job predicting the redshift of recombination, but fails as the electron fraction drops and the system goes out of equilibrium. Therefore, the detailed evolution of $X_e$ must be obtained by a numerical integration of Eq. (28).
+
+We have seen that the neutron/proton ratio affects the abundance of light elements today. Similarly, the evolution of the free electron abundance has major ramifications for observational cosmology. Recombination at $z_* \sim 1000$ is tied to the decoupling of photons from matter. This decoupling, in turn, directly affects the pattern of anisotropies in the CMB that we observe today. Nowadays, sophisticated calculations of the time evolution of $X_e(t)$ are employed in the numerical calculation of CMB anisotropies, which are accurate to the subpercent level.
+
+Now that we have a clear understanding of the evolution of Xe, we can move on to determine the epoch of decoupling. Decoupling occurs roughly when the rate for photons to Compton scatter off electrons becomes smaller than the expansion rate.The scattering rate is:
+$$ n_e  \sigma_T = X_e n_b \sigma_T,\tag{36}$$
+where $\sigma_T = 6.65 \times 10^{-25} cm^2$ is the Thomson cross section. We continue to ignore helium, thereby assuming that the total number of hydrogen nuclei (free protons + hydrogen atoms) is equal to the total baryon number. Since the ratio of the baryon density to the critical density is $m_p n_b/\rho_{cr} = \Omega_b a^{-3}$, $n_b$ can be elimanated in Eq.(36) in favor of $\Omega_b$:
+$$n_e \sigma_T = 7.477\times10^{-30}cm^{-1} X_e \Omega_b h^2 a^{-3}.\tag{37}$$
+Dividing by the expansion rate leads to:
+$$ \frac{n_e \sigma_T}{H} =\frac{n_e \sigma_T}{H_0} \frac{H_0}{H}=0.0692 a^{-3} X_e \Omega_b h \frac{H_0}{H}.\tag{38}$$
+The ratio on the right depends on the Hubble rate. At early times, the main contribution comes from either matter or radiation, so $H/H_0 = \Omega_m^{1/2} a^{-3/2} [1 + a_{eq}/a]^{1/2}$, where $a_{eq} = \Omega_r/\Omega_m$ is the scale factor at matter-radiation equality. Therefore:
+$$
+\frac{n_e \sigma_T}{H} 
+= 123 \, X_e 
+\left(\frac{\Omega_b h^2}{0.022}\right)
+\left(\frac{0.14}{\Omega_m h^2}\right)^{1/2}
+\left(\frac{1+z}{1000}\right)^{3/2}
+\left[ 1 + \frac{1+z}{3360}\,\frac{0.14}{\Omega_m h^2} \right]^{-1/2}.\tag{39}
+$$
+At large redshift $z \gg 1000$, $X_e=1$ so the scattering rate is much larger than the expansion rate. As $z$ drops to $1000$, $X_e$ begins to drop precipitously, and the scattering rate drops below the expansion rate when $X_e$ drops below $\sim 10^{-2}$; this is the epoch when photons decouple. Therefore, decoupling takes place during recombination.
+
+If the universe remained ionized throughout its history, $X_e =1$, we can solve Eq.(39) to find the redshift of decoupling. Setting the left-hand side to 1, we get:
+$$ 1 + z_{dec} = 39 \left(\frac{0.022}{\Omega_b h^2}\right)^{2/3} \left(\frac{\Omega_m h^2}{0.14}\right)^{1/3}(no \ recombination).\tag{40}$$
+Eq. (40) tells us that even if the gas had remained ionized throughout the history of the universe, eventually the photons would have decoupled simply because expansion made it more difficult to find the increasingly dilute electrons.
+
+The bulk of the diffuse gas in the universe today is ionized. So, at some point in the universe’s history, reionization of hydrogen must have taken place. Observations of the most distant quasars suggest that reionization took place at $z > 6$, and we know that the Compton scattering of photons re-enabled after reionization leads to imprints in the CMB which can be used to constrain when reionization happened, with the best current measurements (Planck Collaboration, 2018b) pointing to reionization at $z < 10$. The details of this last phase transition of the universe are still very much an open question, however.
+
+## 4.4 Dark matter
